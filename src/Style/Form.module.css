@@ -1,0 +1,31 @@
+.todoForm {
+  padding: 20px;
+}
+
+.title {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  color: #094067;
+  margin-bottom: 10px;
+}
+
+.nameInput,
+.detailsInput {
+  border: 1px solid #094067;
+  padding: 7px 7px;
+  width: 100%;
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  line-height: 21px;
+  color: #000;
+  border-radius: 5px;
+  margin-bottom: 35px;
+}
+
+.detailsInput {
+  height: 230px;
+}
+
+

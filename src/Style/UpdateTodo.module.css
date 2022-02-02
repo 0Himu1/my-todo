@@ -1,0 +1,20 @@
+.btnContainer {
+  display: flex;
+  justify-content: space-around;
+}
+.btnContainer button {
+  width: 45%;
+  border: none;
+  border-radius: 5px;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  color: #ffffff;
+  padding: 15px 0px;
+}
+.deleteBtn {
+  background: #ef4565;
+}
+.SubmitButton {
+  background: #3da9fc;
+}
