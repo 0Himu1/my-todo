@@ -11,7 +11,7 @@ function App() {
       <Container>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/update" element={<UpdateTodo />} />
+          <Route path="/update/:id" element={<UpdateTodo />} />
           <Route path="/add" element={<AddTodo />} />
         </Routes>
       </Container>
