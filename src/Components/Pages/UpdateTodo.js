@@ -10,7 +10,8 @@ import Form from "../Form";
 export default function UpdateTodo() {
   const { todo, updateTodo, deleteTodo } = useTodo();
   const { id } = useParams();
-  const [updatedTodo, setupdatedTodo] = useState(todo[id - 1]);
+  const currentTodo = todo.filter((todoItem) => todoItem.id === parseFloat(id));
+  const [updatedTodo, setupdatedTodo] = useState(currentTodo[0]);
 
   function handelChange(e) {
     setupdatedTodo((prevState) => {
